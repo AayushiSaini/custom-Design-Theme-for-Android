@@ -23,4 +23,15 @@ you can directly paste this theme to your theme file
         <!-- Other theme attributes for other activities -->
     </style>
 
+--------------------------------------------------------------------------------------------------------------------------------------
+
+    Changes in Project settings
     
+ repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
+     jcenter()
+        maven { url 'https://jitpack.io' }
+
+--------------------------------------------------------------------------------------------------------------------------------------
+Changes in Project Properties
+
+android.nonTransitiveRClass=true
